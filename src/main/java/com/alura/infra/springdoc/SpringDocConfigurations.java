@@ -22,13 +22,10 @@ public class SpringDocConfigurations {
                                         .bearerFormat("JWT")))
                 .info(new Info()
                         .title("API Rest del Foro Alura")
-                        .description("Es un API rest del foro de alura, con las funciones ")
+                        .description("Es un API rest del foro de alura, con las funciones CRUD para los topicos ")
                         .contact(new Contact()
-                                .name("Equipo Backend")
-                                .email("backend@foro.alura"))
-                        .license(new License()
-                                .name("Apache 2.0")
-                                .url("http://foro.alura/api/licencia")));
+                                .name("Backend-Team")
+                                .email("alura.backend@team.com")));
     }
 
     @Bean
